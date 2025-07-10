@@ -61,4 +61,4 @@ For the official docs, visit: [QuantConnect Docs](https://www.quantconnect.com/d
 🚀 **Maintained by [NadirAliOfficial](https://github.com/NadirAliOfficial)**  
 ⭐ Star this repo if you found it useful!
 ```
-<!-- updated: 2025-01-19-r01 -->
+<!-- updated: 2025-07-10-r01 -->
