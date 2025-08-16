@@ -63,4 +63,3 @@ For the official docs, visit: [QuantConnect Docs](https://www.quantconnect.com/d
 ```
 <!-- updated: 2025-12-12-r01 -->
 
-
