@@ -28,7 +28,7 @@ def extract_page_content(url):
     page_soup = BeautifulSoup(res.text, 'html.parser')
 
     # Try different divs where content might be stored
-    content_div = (page_soup.find("div", {"class": "docs-content"}) or 
+    content_div = (page_soup.find("div", {"class": "docs-content"}) or
                    page_soup.find("div", {"class": "container"}) or
                    page_soup.find("div", {"class": "content"}))
 
@@ -37,7 +37,7 @@ def extract_page_content(url):
         return markdown_content.strip()  # Remove empty spaces
     else:
         print(f"Warning: No content found for {url}")
-    
+
     return None
 
 # Extract and save documentation content
